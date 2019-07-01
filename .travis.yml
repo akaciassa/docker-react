@@ -6,4 +6,4 @@ before_install:
   - docker build -t akaciaissa/docker-react -f Dockerfile.dev  .
 
 script:
-  - docker run akaciaissa/docker-react npm run test -- --coverage
+  - docker run akaciaissa/docker-react npm run test
